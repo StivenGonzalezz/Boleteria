@@ -9,8 +9,10 @@ import java.util.Scanner;
 
 public class Opciones {
     private int opcion = -1;
-    ArrayList<Evento> baseDatosEventos = new ArrayList<>();
+   // ArrayList<Evento> baseDatosEventos = new ArrayList<>();
     ArrayList<Usuario> baseDatosUsuarios = new ArrayList<>();
+    Evento evento =new Evento("perros criollos","12/09/2024","atanasio","perros criollos",150000,200000,250000,1250);
+
     Scanner scanner = new Scanner(System.in);
 
     public void ejecutar() {
@@ -116,7 +118,4 @@ public class Opciones {
             }
         }
     }
-
-
-
 }
