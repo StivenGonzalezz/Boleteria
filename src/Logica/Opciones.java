@@ -1,4 +1,4 @@
-package Opciones;
+package Logica;
 
 import Logica.Boletera;
 import Logica.Evento;
@@ -116,5 +116,7 @@ public class Opciones {
             }
         }
     }
+
+
 
 }
